@@ -13,6 +13,16 @@ import UIKit
 // TODO: add a button to zoom to user's current location
 // TODO: add several pins and button to switch between them
 
+let unUserLet = "UnUsed"
+
+var unUserVar = 0
+
+func unUserFunc() { }
+
+struct unUserStruct {
+    let unUserField: UIView
+}
+
 class MapViewController: UIViewController {
     var mapView: MKMapView!
 
